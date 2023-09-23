@@ -12,8 +12,16 @@ Dysarthric speech reconstruction (DSR) aims to transform dysarthric speech into 
 
 ## 3. Audio samples of different model settings
 
-- **Original**: the original dysarthric speech.
+- **Original**: The original dysarthric speech.
 - **A-DSR**: The audio-only encoder (described in paper 2.1.1) is used for the DSR model.
 - **AV-DSR (Proposed)**: The VGG-based audio-visual encoder (described in paper 2.1.2) is used for the DSR model.
 - **AVHuBERT-DSR (Proposed)**: The AV-HuBERT-based audio-visual encoder (described in paper 2.1.3) is used for the DSR model.
+
+3.1 **Text**: *Enter*
+
+| **Original** | <audio controls><source src="./wavs/F02/original/F02_B2_C4_M2_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+|:---------------------------------------:|:--------------------------------------:|
+| **A-DSR** | <audio controls><source src="./wavs/F02/a/F02_B2_C4_M2_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+| **AV-DSR** | <audio controls><source src="./wavs/F02/av/F02_B2_C4_M2_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+| **AVHuBERT-DSR** | <audio controls><source src="./wavs/F02/avhubert/F02_B2_C4_M2_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
 
