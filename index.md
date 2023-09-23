@@ -14,8 +14,8 @@ Dysarthric speech reconstruction (DSR) aims to transform dysarthric speech into 
 
 - **Original**: The original dysarthric speech.
 - **A-DSR**: The audio-only encoder (described in paper 2.1.1) is used for the DSR model.
-- **AV-DSR (Proposed)**: The VGG-based audio-visual encoder (described in paper 2.1.2) is used for the DSR model.
-- **AVHuBERT-DSR (Proposed)**: The AV-HuBERT-based audio-visual encoder (described in paper 2.1.3) is used for the DSR model.
+- **AV-DSR**: The VGG-based audio-visual encoder (described in paper 2.1.2) is used for the DSR model.
+- **AVHuBERT-DSR**: The AV-HuBERT-based audio-visual encoder (described in paper 2.1.3) is used for the DSR model.
 
 3.1 **Text**: <i><font size=4>Enter</font></i>
 
@@ -23,4 +23,59 @@ Dysarthric speech reconstruction (DSR) aims to transform dysarthric speech into 
 |:---------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:|
 | **AV-DSR** | <audio controls><source src="./wavs/F02/av/F02_B2_C4_M2_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **AVHuBERT-DSR** | <audio controls><source src="./wavs/F02/avhubert/F02_B2_C4_M2_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
 
+3.2 **Text**: <i><font size=4>Shift</font></i>
 
+| **Original** | <audio controls><source src="./wavs/F02/original/F02_B2_C9_M5_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **A-DSR** | <audio controls><source src="./wavs/F02/a/F02_B2_C9_M5_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+|:---------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:|
+| **AV-DSR** | <audio controls><source src="./wavs/F02/av/F02_B2_C9_M5_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **AVHuBERT-DSR** | <audio controls><source src="./wavs/F02/avhubert/F02_B2_C9_M5_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+
+3.3 **Text**: <i><font size=4>Paragraph</font></i>
+
+| **Original** | <audio controls><source src="./wavs/F02/original/F02_B2_C11_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **A-DSR** | <audio controls><source src="./wavs/F02/a/F02_B2_C11_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+|:---------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:|
+| **AV-DSR** | <audio controls><source src="./wavs/F02/av/F02_B2_C11_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **AVHuBERT-DSR** | <audio controls><source src="./wavs/F02/avhubert/F02_B2_C11_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+
+3.4 **Text**: <i><font size=4>Word</font></i>
+
+| **Original** | <audio controls><source src="./wavs/F02/original/F02_B2_CW29_M6_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **A-DSR** | <audio controls><source src="./wavs/F02/a/F02_B2_CW29_M6_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+|:---------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:|
+| **AV-DSR** | <audio controls><source src="./wavs/F02/av/F02_B2_CW29_M6_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **AVHuBERT-DSR** | <audio controls><source src="./wavs/F02/avhubert/F02_B2_CW29_M6_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+
+3.5 **Text**: <i><font size=4>When</font></i>
+
+| **Original** | <audio controls><source src="./wavs/F02/original/F02_B2_CW36_M3_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **A-DSR** | <audio controls><source src="./wavs/F02/a/F02_B2_CW36_M3_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+|:---------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:|
+| **AV-DSR** | <audio controls><source src="./wavs/F02/av/F02_B2_CW36_M3_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **AVHuBERT-DSR** | <audio controls><source src="./wavs/F02/avhubert/F02_B2_CW36_M3_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+
+3.6 **Text**: <i><font size=4>One</font></i>
+
+| **Original** | <audio controls><source src="./wavs/F02/original/F02_B2_D1_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **A-DSR** | <audio controls><source src="./wavs/F02/a/F02_B2_D1_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+|:---------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:|
+| **AV-DSR** | <audio controls><source src="./wavs/F02/av/F02_B2_D1_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **AVHuBERT-DSR** | <audio controls><source src="./wavs/F02/avhubert/F02_B2_D1_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+
+3.7 **Text**: <i><font size=4>Seven</font></i>
+
+| **Original** | <audio controls><source src="./wavs/F02/original/F02_B2_D7_M4_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **A-DSR** | <audio controls><source src="./wavs/F02/a/F02_B2_D7_M4_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+|:---------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:|
+| **AV-DSR** | <audio controls><source src="./wavs/F02/av/F02_B2_D7_M4_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **AVHuBERT-DSR** | <audio controls><source src="./wavs/F02/avhubert/F02_B2_D7_M4_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+
+3.8 **Text**: <i><font size=4>From</font></i>
+
+| **Original** | <audio controls><source src="./wavs/F02/original/F02_B2_CW25_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **A-DSR** | <audio controls><source src="./wavs/F02/a/F02_B2_CW25_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+|:---------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:|
+| **AV-DSR** | <audio controls><source src="./wavs/F02/av/F02_B2_CW25_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **AVHuBERT-DSR** | <audio controls><source src="./wavs/F02/avhubert/F02_B2_CW25_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+
+3.9 **Text**: <i><font size=4>Into</font></i>
+
+| **Original** | <audio controls><source src="./wavs/F02/original/F02_B2_CW66_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **A-DSR** | <audio controls><source src="./wavs/F02/a/F02_B2_CW66_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+|:---------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:|
+| **AV-DSR** | <audio controls><source src="./wavs/F02/av/F02_B2_CW66_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **AVHuBERT-DSR** | <audio controls><source src="./wavs/F02/avhubert/F02_B2_CW66_M7_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+
+3.10 **Text**: <i><font size=4>Foxtrot</font></i>
+
+| **Original** | <audio controls><source src="./wavs/F02/original/F02_B2_LF_M6_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **A-DSR** | <audio controls><source src="./wavs/F02/a/F02_B2_LF_M6_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+|:---------------------------------------:|:--------------------------------------:|:---------------------------------------:|:--------------------------------------:|
+| **AV-DSR** | <audio controls><source src="./wavs/F02/av/F02_B2_LF_M6_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> | **AVHuBERT-DSR** | <audio controls><source src="./wavs/F02/avhubert/F02_B2_LF_M6_Denoise1.1_pred_gen.wav" type="audio/wav"></audio> |
+
+<br>
+<br>
